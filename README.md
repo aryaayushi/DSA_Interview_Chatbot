@@ -1,3 +1,36 @@
+🤖 SDE Interview Chatbot
+
+An AI-powered chatbot designed to help users prepare for Software Development Engineer (SDE) interviews. It provides answers to technical questions, explanations, and guidance using modern web technologies.
+
+🚀 Features
+💬 Interactive chatbot interface
+🧠 AI-powered responses for interview questions
+⚡ Built with Next.js App Router
+🎨 Styled using Tailwind CSS
+🔌 API-based backend integration
+🌐 Deployed on Vercel
+🛠️ Tech Stack
+Frontend: Next.js (App Router), React
+Styling: Tailwind CSS
+Backend: Next.js API Routes
+
+Deployment: Vercel
+📂 Project Structure
+sde-interview-chatbot/
+│── app/
+│   ├── api/chat/route.js   # API route for chatbot
+│   ├── page.js             # Main UI page
+│   ├── layout.tsx          # Layout file
+│
+│── components/             # Reusable UI components
+│── lib/                    # Utility functions
+│── public/                 # Static assets
+│
+│── .env.local              # Environment variables (not pushed)
+│── package.json
+│── README.md
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -34,3 +67,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+
